@@ -138,9 +138,51 @@ color:#DE2E54 ;
 .main-link:active{
   background-color: #DE2E54;
   color: #fff;
-opacity: 0.6;
+  opacity: 0.6;
 }
 
+.hero-link:hover{
+  background-color: rgba(222, 46, 84, 0.8);
+color: #fff;
+}
+
+.hero-link:active{
+  background-color: rgba(222, 46, 84, 0.6);
+}
+
+.hero-container{
+background-color: #0EB4C1;
+color: #fff;
+display: flex;
+justify-content: space-between;
+
+}
+
+.hero{
+padding-top: 120px;
+padding-bottom: 120px;
+width: 500px;
+}
+
+.hero-header{
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family:"Open Sans Condensed", "Arial", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.2;
+
+}
+
+.hero-text{
+  margin-top: 0;
+  margin-bottom: 32px;
+  width: 440px;
+  font-family:"Open Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+
+}
 .site-footer{
   padding-top: 24px;
   padding-bottom: 24px;
