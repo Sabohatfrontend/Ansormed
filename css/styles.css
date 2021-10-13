@@ -5,12 +5,12 @@
 body{
   padding: 0;
   margin: 0;
-  background-color: white;
+  background-color:#fff;
   font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 400;
   line-height: 1.5;
   font-size: 16px;
-  color: #444;
+  color: #222;
 }
 
 /* CONTAINER */
@@ -22,3 +22,127 @@ padding-right: 30px;
 margin-left: auto;
 margin-right: auto;
 }
+
+/* SITE HEADER */
+.site-header{
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color:#fff;
+}
+
+.site-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+/* SITE LOGO */
+
+.site-logo{
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  color: #222;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.site-footer-logo{
+  color: #fff;
+}
+
+.site-logo:hover{
+color: #DE2E54;
+}
+
+.site-logo:active{
+opacity: 0.6;
+}
+
+.site-footer-logo:active{
+  color: #fff;
+  opacity: 0.6;
+  }
+
+.site-logo-img{
+margin-right: 16px;
+border-radius: 50%;
+}
+
+/* SITENAV */
+.sitenav{
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.sitenav-list{
+display: flex;
+align-items: center;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.sitenav-item:not(:last-child){
+margin-right: 32px;
+}
+
+.sitenav-link{
+display: block;
+color: #222;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+.sitenav-link:hover{
+  color: #DE2E54;
+}
+
+.sitenav-link:active{
+opacity: 0.6;
+}
+
+.sitenav-site-footer .sitenav-link{
+  color: #fff;
+}
+
+.sitenav-site-footer .sitenav-link:hover{
+  color: #DE2E54;
+}
+
+.sitenav-site-footer .sitenav-link:active{
+  color: #fff;
+  opacity: 0.6;
+}
+/*  MAIN LINK */
+.main-link{
+  display: inline-block;
+padding: 10px 22px;
+background-color: #DE2E54;
+border: 2px solid #DE2E54;
+border-radius: 8px;
+font-family: "Open Sans Condensed", "Arial", sans-serif;
+font-size: 15px;
+color: #fff;
+text-decoration: none;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+
+.main-link:hover{
+background-color: #fff;
+color:#DE2E54 ;
+}
+
+.main-link:active{
+  background-color: #DE2E54;
+  color: #fff;
+opacity: 0.6;
+}
+
+.site-footer{
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #222;
+  }
