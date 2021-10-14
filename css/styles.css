@@ -146,11 +146,13 @@ color:#DE2E54 ;
 
 .hero-link:hover{
   background-color: rgba(222, 46, 84, 0.8);
-color: #fff;
+  border-color: transparent;
+  color: #fff;
 }
 
 .hero-link:active{
   background-color: rgba(222, 46, 84, 0.6);
+  border-color: transparent;
   opacity: 1;
 }
 
@@ -161,6 +163,7 @@ color: #fff;
 
 .cta-link{
 background-color: #0EB4C1;
+border: 2px solid #FFFFFF;
 }
 
 .cta-link:not(:last-child){
@@ -173,12 +176,13 @@ color: #fff;
 }
 
 /* MAIN LINK END */
+.hero-section{
+  background-color: #0EB4C1;
+  color: #fff;
+}
 .hero-container{
-background-color: #0EB4C1;
-color: #fff;
 display: flex;
 justify-content: space-between;
-
 }
 
 .hero{
@@ -237,6 +241,7 @@ width: 500px;
 .services-img{
   border-radius: 24px;
   margin-right: 64px;
+  box-shadow: 0px 12px 24px -8px rgba(0, 107, 116, 0.3);
 }
 
 .services-item{
@@ -245,15 +250,14 @@ width: 500px;
   }
 
 .services{
-  width: 195px;
   margin-top: 0;
   margin-bottom: 24px;
   font-family:"Open Sans Condensed", "Arial", sans-serif;
-font-size: 24px;
-line-height: 1.2;
-font-weight: bold;
-text-transform: capitalize;
-color: #222;
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #222;
 }
 
 .services-text{
@@ -271,12 +275,13 @@ line-height: 1.5;
   margin-bottom: 80px;
 }
 
+.cta{
+  background-color: #0EB4C1;
+}
 
 .cta-container{
 padding-top: 64px;
 padding-bottom: 64px;
-background-color: #0EB4C1;
-
 }
 
 .cta-header{
