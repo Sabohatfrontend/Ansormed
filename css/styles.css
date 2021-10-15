@@ -15,12 +15,12 @@ body{
 
 /* CONTAINER */
 .container{
-width: 100%;
-max-width: 1160px;
-padding-left: 30px;
-padding-right: 30px;
-margin-left: auto;
-margin-right: auto;
+  width: 100%;
+  max-width: 1160px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* SITE HEADER */
@@ -31,9 +31,9 @@ margin-right: auto;
 }
 
 .site-container{
-display: flex;
-justify-content: space-between;
-align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* SITE LOGO */
@@ -47,14 +47,12 @@ align-items: center;
   font-weight: 600;
 }
 
-
-
 .site-logo:hover{
-color: #DE2E54;
+  color: #DE2E54;
 }
 
 .site-logo:active{
-opacity: 0.6;
+  opacity: 0.6;
 }
 
 .site-footer-logo{
@@ -67,34 +65,35 @@ opacity: 0.6;
   }
 
 .site-logo-img{
-margin-right: 16px;
-border-radius: 50%;
+  margin-right: 16px;
+  border-radius: 50%;
 }
 
 /* SITENAV */
 .sitenav{
+
   font-weight: bold;
   font-size: 14px;
   letter-spacing: 2px;
 }
 
 .sitenav-list{
-display: flex;
-align-items: center;
-list-style: none;
-margin: 0;
-padding: 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .sitenav-item:not(:last-child){
-margin-right: 32px;
+  margin-right: 32px;
 }
 
 .sitenav-link{
-display: block;
-color: #222;
-text-decoration: none;
-text-transform: uppercase;
+  display: block;
+  color: #222;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .sitenav-link:hover{
@@ -102,7 +101,7 @@ text-transform: uppercase;
 }
 
 .sitenav-link:active{
-opacity: 0.6;
+  opacity: 0.6;
 }
 
 .sitenav-site-footer .sitenav-link{
@@ -121,21 +120,21 @@ opacity: 0.6;
 /*  MAIN LINK START*/
 .main-link{
   display: inline-block;
-padding: 10px 22px;
-background-color: #DE2E54;
-border: 2px solid #DE2E54;
-border-radius: 8px;
-font-family: "Open Sans Condensed", "Arial", sans-serif;
-font-size: 15px;
-color: #fff;
-text-decoration: none;
-text-transform: uppercase;
-letter-spacing: 2px;
+  padding: 10px 22px;
+  background-color: #DE2E54;
+  border: 2px solid #DE2E54;
+  border-radius: 8px;
+  font-family: "Open Sans Condensed", "Arial", sans-serif;
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .main-link:hover{
-background-color: #fff;
-color:#DE2E54 ;
+  background-color: #fff;
+  color:#DE2E54 ;
 }
 
 .main-link:active{
@@ -162,8 +161,8 @@ color:#DE2E54 ;
 }
 
 .cta-link{
-background-color: #0EB4C1;
-border: 2px solid #FFFFFF;
+  background-color: #0EB4C1;
+  border: 2px solid #FFFFFF;
 }
 
 .cta-link:not(:last-child){
@@ -171,9 +170,9 @@ border: 2px solid #FFFFFF;
 }
 
 .cta-link:hover{
-background-color: #DE2E54;
-border-color: transparent;
-color: #fff;
+  background-color: #DE2E54;
+  border-color: transparent;
+  color: #fff;
 }
 
 /* MAIN LINK END */
@@ -182,14 +181,14 @@ color: #fff;
   color: #fff;
 }
 .hero-container{
-display: flex;
-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .hero{
-padding-top: 120px;
-padding-bottom: 120px;
-width: 500px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  width: 500px;
 }
 
 .hero-header{
@@ -234,6 +233,7 @@ width: 500px;
   text-transform:capitalize;
   color: #000;
   }
+
 .services-list{
   margin-top: 0;
   margin-bottom: 60px;
@@ -263,13 +263,13 @@ width: 500px;
 
 .services-text{
   width: 600px;
-margin-top: 0;
-margin-bottom: 0;
-color: #444;
-font-family: "Open Sans", "Arial", sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #444;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .services-item:not(:last-child){
@@ -281,8 +281,8 @@ line-height: 1.5;
 }
 
 .cta-container{
-padding-top: 64px;
-padding-bottom: 64px;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 .cta-header{
@@ -297,8 +297,8 @@ padding-bottom: 64px;
 }
 
 .cta-link-container{
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .site-footer{
