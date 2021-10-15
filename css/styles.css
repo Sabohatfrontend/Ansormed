@@ -172,6 +172,7 @@ border: 2px solid #FFFFFF;
 
 .cta-link:hover{
 background-color: #DE2E54;
+border-color: transparent;
 color: #fff;
 }
 
